@@ -2,6 +2,12 @@ body{
     background: rgb(129, 147, 247); 
     font-family:'Franklin Gothic Medium';
     color: rgb(15, 8, 1);
+    
+}
+
+.Mode{
+    text-decoration: none;
+    color: blanchedalmond;
 }
 div {
     display: flex;
@@ -10,6 +16,7 @@ div {
     
     
 }
+
 
 .para{
    display: flex;
@@ -31,7 +38,8 @@ h1,h2,h3,h4,h5{
     display: flex;
     justify-content: center;
     font-style: italic;
-    font-size: 29px;
+    font-size: 28px;
+    padding: 5px;
 }
 #head{
     display:flex;
@@ -69,13 +77,29 @@ a {
     text-decoration: none;
     color: blanchedalmond;
 }
+.al{
+    text-decoration: none;
+    color: rgb(15, 8, 1);
+    font-family: 'Gill Sans';
+
+}
+
 
 #name a:hover{
     background:rgb(169, 181, 247);
     color:black;
 }
 
+.Mode a:hover{
+    background:rgb(169, 181, 247);
+    color:black;
+}
 
+.Mode a{
+    float: left;
+    display:block;
+    text-align: center;
+}
 
 #name a{
     float: left;
@@ -101,6 +125,17 @@ a {
     font-weight:lighter ;
     padding: 5px;
 }
+
+#newDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+      font-size: 19px;
+  
+  }
+
+
 #aboutMe{
   display: flex;
   justify-content: center;
@@ -134,7 +169,7 @@ a {
     border: black;
     border-radius: 10px;
     border-style: groove;
-    width: 150px;
+    width: 250px;
 }
 
 .box{
@@ -143,18 +178,15 @@ a {
     text-align: center;
     flex-direction: column;
      font-family: 'Gill Sans';
-     color: rgb(15, 8, 1);;
-     background-color:rgb(169, 181, 247);
-     border: black;
-     border-radius: 10px;
-     border-style: groove;
      padding: 15px;
-     width: 150px;  
+     width: 250px;  
 }
+
 
 .photo{
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    flex-direction: column;
     font-size: 16px;
     padding: 5px;
 }
