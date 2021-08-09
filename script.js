@@ -45,7 +45,7 @@ function changeColor() {
             body.style.color = 'blanchedalmond'
         }
         for(let i = 0; i <al.length; i++){
-            al[i].style.backgroundColor = 'rgb(9, 16, 41)'
+            al[i].style.backgroundColor = 'rgb(12, 17, 37)'
             al[i].style.color = 'blanchedalmond'
             body.style.backgroundColor = ' rgb(35, 38, 58)'
             body.style.color = 'blanchedalmond'
